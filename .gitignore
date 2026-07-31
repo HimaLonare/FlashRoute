@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Generated data & model artifacts (regenerate via scripts in src/)
+data/processed/*.csv
+models/*.joblib
+models/locations.json
+static/maps/*.html
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Flask
+instance/
+.flaskenv
