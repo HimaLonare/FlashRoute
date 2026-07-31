@@ -1,0 +1,28 @@
+body {
+    background-color: #f5f6f8;
+}
+
+.metric-box {
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.metric-value {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #2a78d6;
+}
+
+.metric-label {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.route-map {
+    width: 100%;
+    height: 420px;
+    border: none;
+    border-radius: 0 0 10px 10px;
+}
