@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: flashroute
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"

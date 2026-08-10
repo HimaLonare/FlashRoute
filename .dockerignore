@@ -1,0 +1,13 @@
+.git
+.gitignore
+README.md
+screenshots/
+notebooks/
+cache/
+data/processed/*.csv
+models/locations.json
+static/maps/*.html
+__pycache__/
+*.pyc
+.venv/
+venv/
