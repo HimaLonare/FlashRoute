@@ -23,4 +23,4 @@ RUN python src/data_cleaning.py && python src/generate_location_options.py
 EXPOSE 5000
 
 # Render/Railway/most PaaS inject $PORT; default to 5000 for local `docker run`.
-CMD gunicorn app:app --bind 0.0.0.0:${PORT:-5000} --workers 2 --threads 4 --timeout 120
+CMD gunicorn app:app --bind 0.0.0.0:${PORT:-5000} --workers 1 --threads 2 --timeout 120
